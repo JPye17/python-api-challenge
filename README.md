@@ -2,6 +2,11 @@
 
 There are two parts to this challenge. Part 1 Weather PY and Part 2 VacationPy. The follow are the requirements needed to complete the project, with notes on how i achieved the end results, as well as a referene section.
 
+How was the objective met:
+Creating a URL and Parse out certain data to create a list within city_data, then filling that list with randome data from the OpenWeather API. Then using plt.Scatter and plt.Plot to create graphs to find the relationship between desired metrics. 
+
+There project followed the below requirements. 
+
 Part 1: WeatherPy
 In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and your problem-solving skills to create a representative model of weather across cities.
 
@@ -59,4 +64,5 @@ Zero cloudiness
 
 5) Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
-REFERENCES:
+REFERENCES: Outside of class material, I used the following to help with the # Create endpoint URL with each city. As the the code i was using was pulling a city and then an error, as well as not filling the list created. This helped me get through the roadblock and use class material to finish the project. https://github.com/ginaleonardi/python_api_challenge/blob/main/WeatherPy.ipynb
+
