@@ -3,7 +3,7 @@
 There are two parts to this challenge. Part 1 Weather PY and Part 2 VacationPy. The follow are the requirements needed to complete the project, with notes on how i achieved the end results, as well as a referene section.
 
 How was the objective met:
-Creating a URL and Parse out certain data to create a list within city_data, then filling that list with randome data from the OpenWeather API. Then using plt.Scatter and plt.Plot to create graphs to find the relationship between desired metrics. 
+Creating a URL and Parse out certain data to create a list within city_data, then filling that list with randome data from the OpenWeather API. Then using plt.Scatter and plt.Plot to create graphs to find the relationship between desired metrics. In VacationPY I found working through the API as a challenge, but once I realized where i needed to use the resource the code became easier to write.  
 
 There project followed the below requirements. 
 
@@ -65,4 +65,8 @@ Zero cloudiness
 5) Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
 REFERENCES: Outside of class material, I used the following to help with the # Create endpoint URL with each city. As the the code i was using was pulling a city and then an error, as well as not filling the list created. This helped me get through the roadblock and use class material to finish the project. https://github.com/ginaleonardi/python_api_challenge/blob/main/WeatherPy.ipynb
+
+In VacationPy I spent plenty of time searching Pandas and GeoApify to hover over the map, then i realized i was on a scatterplot. StackOverflow helped me with the Syntax needed. https://stackoverflow.com/questions/59678780/show-extra-columns-when-hovering-in-a-scatter-plot-with-hvplot#:~:text=You%20can%20use%20keyword%20hover_cols,indexes%20if%20use_index%20is%20True).
+
+I used ChatGPT to help me understand some code, and help give me direction on what class material i was looking for to complete some steps. 
 
